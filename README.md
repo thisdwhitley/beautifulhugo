@@ -1,4 +1,11 @@
-# Beautiful Hugo - A port of Beautiful Jekyll Theme
+# Beautiful Hugo - A port of Beautiful Jekyll Theme | thisdwhitley fork
+
+## Updates from fork
+
+I have made the following changes in this fork:
+
+- updated the colors of the links to reflect my preference for NCSU
+- update the "See Also" section to align with my posts
 
 ![Beautiful Hugo Theme Screenshot](https://github.com/halogenica/beautifulhugo/blob/master/images/screenshot.png)
 
@@ -7,7 +14,7 @@
     $ mkdir themes
     $ cd themes
     $ git submodule add https://github.com/halogenica/beautifulhugo.git beautifulhugo
-    
+
 
 See [the Hugo documentation](https://gohugo.io/themes/installing/) for more information.
 
@@ -45,7 +52,7 @@ pygmentsStyle = "trac"
 pygmentsUseClassic = true
 ```
 
-Pygments is mostly compatable with the newer Chroma. It is slower but has some additional theme options. I recommend Chroma over Pygments. Pygments will use `syntax.css` for highlighting, unless you also set the config `pygmentsUseClasses = false` which will generate the style code directly in the HTML file. 
+Pygments is mostly compatable with the newer Chroma. It is slower but has some additional theme options. I recommend Chroma over Pygments. Pygments will use `syntax.css` for highlighting, unless you also set the config `pygmentsUseClasses = false` which will generate the style code directly in the HTML file.
 
 #### Highlight.js - Client side syntax highlighting
 ```
@@ -113,15 +120,15 @@ If the source of your site is in a Git repo, the SHA corresponding to the commit
 [Params]
   commit = "https://github.com/<username>/<siterepo>/tree/"
 ```
-  
+
 This can be achieved by running the next command prior to calling Hugo:
 
 ```
   GIT_COMMIT_SHA=`git rev-parse --verify HEAD` GIT_COMMIT_SHA_SHORT=`git rev-parse --short HEAD`
 ```
-  
+
 See at [xor-gate/xor-gate.org](https://github.com/xor-gate/xor-gate.org) an example of how to add it to a continuous integration system.
- 
+
 ### Extra shortcodes
 
 There are two extra shortcodes provided (along with the customized figure shortcode):
