@@ -1,4 +1,4 @@
-# Beautiful Hugo - A port of Beautiful Jekyll Theme | thisdwhitley fork
+# Beautiful Hugo [thisdwhitley fork] - A port of Beautiful Jekyll Theme
 
 ## Updates from fork
 
