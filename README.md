@@ -6,6 +6,8 @@ I have made the following changes in this fork:
 
 - updated the colors of the links to reflect my allegiance NCSU
 - update the "See Also" section to align with my posts
+- added the ability to link to a disclosure by putting "showDisclosure: true"
+  the frontmatter
 
 ![Beautiful Hugo Theme Screenshot](https://github.com/halogenica/beautifulhugo/blob/master/images/screenshot.png)
 
