@@ -6,7 +6,10 @@
         {{ if .Params.showDisclosure }}
           {{ partial "disclosure" . }}
         {{ end }}
-        
+        {{ if .Params.converted }}
+          {{ partial "converted" . }}
+        {{ end }}
+
         {{ .Content }}
 
         {{ if .Site.Params.showRelatedPosts }}
